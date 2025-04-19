@@ -1,0 +1,90 @@
+<menu>
+    <plato tipo="entrante">
+        <nombre>Bruschetta</nombre>
+        <precio>6</precio>
+        <descripcion>Pan tostado con tomate fresco, albahaca y aceite de oliva.</descripcion>
+        <calorias>150</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="entrante">
+        <nombre>Caprese</nombre>
+        <precio>8</precio>
+        <descripcion>Ensalada de tomate, mozzarella fresca y albahaca.</descripcion>
+        <calorias>200</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="principal">
+        <nombre>Lasagna</nombre>
+        <precio>12</precio>
+        <descripcion>Capas de pasta con carne, salsa de tomate y queso gratinado.</descripcion>
+        <calorias>600</calorias>
+        <caracteristicas>
+            <categoria>tradicional</categoria>
+            <categoria>con gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="principal">
+        <nombre>Risotto de Setas</nombre>
+        <precio>14</precio>
+        <descripcion>Arroz cremoso con setas y queso parmesano.</descripcion>
+        <calorias>500</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="principal">
+        <nombre>Pizza Margherita</nombre>
+        <precio>10</precio>
+        <descripcion>Pizza clásica con tomate, mozzarella y albahaca.</descripcion>
+        <calorias>700</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+            <categoria>con gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="postre">
+        <nombre>Tiramisú</nombre>
+        <precio>6</precio>
+        <descripcion>Postre clásico italiano con café, mascarpone y cacao.</descripcion>
+        <calorias>400</calorias>
+        <caracteristicas>
+            <categoria>tradicional</categoria>
+            <categoria>con gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="postre">
+        <nombre>Panna Cotta</nombre>
+        <precio>5</precio>
+        <descripcion>Postre cremoso de nata con coulis de frutas rojas.</descripcion>
+        <calorias>300</calorias>
+        <caracteristicas>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="bebida">
+        <nombre>Espresso</nombre>
+        <precio>2</precio>
+        <descripcion>Café italiano corto y fuerte.</descripcion>
+        <calorias>5</calorias>
+        <caracteristicas>
+            <categoria>vegano</categoria>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="bebida">
+        <nombre>Limoncello</nombre>
+        <precio>4</precio>
+        <descripcion>Licor de limón típico del sur de Italia.</descripcion>
+        <calorias>150</calorias>
+        <caracteristicas>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+</menu>
