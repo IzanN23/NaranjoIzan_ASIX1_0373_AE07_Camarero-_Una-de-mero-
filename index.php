@@ -126,6 +126,42 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Pollo al Marsala</h5>
+                            <img src="./img/pollo_marsal.jpg" class="img-fluid mb-3" alt="Pollo al Marsala">
+                            <p class="card-text"><strong>Descripción:</strong> Pechuga de pollo cocinada con vino Marsala y champiñones.</p>
+                            <p class="card-text"><strong>Precio:</strong> $15</p>
+                            <p class="card-text"><strong>Calorías:</strong> 450 kcal</p>
+                            <p class="card-text"><strong>Características:</strong> <span class="badge bg-secondary">Sin gluten</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Gnocchi al Pesto</h5>
+                            <img src="./img/gnocchi_al_pesto.jpg" class="img-fluid mb-3" alt="Gnocchi al Pesto">
+                            <p class="card-text"><strong>Descripción:</strong> Gnocchi de patata con salsa de pesto fresco.</p>
+                            <p class="card-text"><strong>Precio:</strong> $13</p>
+                            <p class="card-text"><strong>Calorías:</strong> 500 kcal</p>
+                            <p class="card-text"><strong>Características:</strong> <span class="badge bg-secondary">Vegetariano</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Ravioli de Espinacas</h5>
+                            <img src="./img/ravioli.jpg" class="img-fluid mb-3" alt="Ravioli de Espinacas">
+                            <p class="card-text"><strong>Descripción:</strong> Ravioli relleno de espinacas y ricotta con salsa de tomate.</p>
+                            <p class="card-text"><strong>Precio:</strong> $14</p>
+                            <p class="card-text"><strong>Calorías:</strong> 550 kcal</p>
+                            <p class="card-text"><strong>Características:</strong> <span class="badge bg-secondary">Vegetariano</span> <span class="badge bg-secondary">Con gluten</span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -166,6 +202,42 @@
                             <p class="card-text"><strong>Precio:</strong> $14</p>
                             <p class="card-text"><strong>Calorías:</strong> 800 kcal</p>
                             <p class="card-text"><strong>Características:</strong> <span class="badge bg-secondary">Vegetariano</span> <span class="badge bg-secondary">Con gluten</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza Capricciosa</h5>
+                            <img src="./img/pizza_caprichosa.jpg" class="img-fluid mb-3" alt="Pizza Capricciosa">
+                            <p class="card-text"><strong>Descripción:</strong> Pizza con jamón, champiñones, alcachofas y aceitunas.</p>
+                            <p class="card-text"><strong>Precio:</strong> $13</p>
+                            <p class="card-text"><strong>Calorías:</strong> 750 kcal</p>
+                            <p class="card-text"><strong>Características:</strong> <span class="badge bg-secondary">Con gluten</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza Prosciutto e Funghi</h5>
+                            <img src="./img/pizza_prosciutto.jpg" class="img-fluid mb-3" alt="Pizza Prosciutto e Funghi">
+                            <p class="card-text"><strong>Descripción:</strong> Pizza con jamón cocido, champiñones y mozzarella.</p>
+                            <p class="card-text"><strong>Precio:</strong> $12</p>
+                            <p class="card-text"><strong>Calorías:</strong> 720 kcal</p>
+                            <p class="card-text"><strong>Características:</strong> <span class="badge bg-secondary">Con gluten</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza Marinara</h5>
+                            <img src="./img/pizza_marinara.jpg" class="img-fluid mb-3" alt="Pizza Marinara">
+                            <p class="card-text"><strong>Descripción:</strong> Pizza con tomate, ajo, orégano y aceite de oliva.</p>
+                            <p class="card-text"><strong>Precio:</strong> $9</p>
+                            <p class="card-text"><strong>Calorías:</strong> 600 kcal</p>
+                            <p class="card-text"><strong>Características:</strong> <span class="badge bg-secondary">Vegano</span> <span class="badge bg-secondary">Con gluten</span></p>
                         </div>
                     </div>
                 </div>

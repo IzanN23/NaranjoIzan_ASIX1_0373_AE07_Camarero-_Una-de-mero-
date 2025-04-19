@@ -58,22 +58,50 @@
         </caracteristicas>
     </plato>
     <plato tipo="principal">
-        <nombre>Pizza Margherita</nombre>
-        <precio>10</precio>
-        <descripcion>Pizza clásica con tomate, mozzarella y albahaca.</descripcion>
-        <calorias>700</calorias>
-        <caracteristicas>
-            <categoria>vegetariano</categoria>
-            <categoria>con gluten</categoria>
-        </caracteristicas>
-    </plato>
-    <plato tipo="principal">
         <nombre>Spaghetti Carbonara</nombre>
         <precio>11</precio>
         <descripcion>Pasta con salsa cremosa de huevo, queso y panceta.</descripcion>
         <calorias>650</calorias>
         <caracteristicas>
             <categoria>tradicional</categoria>
+            <categoria>con gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="principal">
+        <nombre>Pollo al Marsala</nombre>
+        <precio>15</precio>
+        <descripcion>Pechuga de pollo cocinada con vino Marsala y champiñones.</descripcion>
+        <calorias>450</calorias>
+        <caracteristicas>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="principal">
+        <nombre>Gnocchi al Pesto</nombre>
+        <precio>13</precio>
+        <descripcion>Gnocchi de patata con salsa de pesto fresco.</descripcion>
+        <calorias>500</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="principal">
+        <nombre>Ravioli de Espinacas</nombre>
+        <precio>14</precio>
+        <descripcion>Ravioli relleno de espinacas y ricotta con salsa de tomate.</descripcion>
+        <calorias>550</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+            <categoria>con gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="pizza">
+        <nombre>Pizza Margherita</nombre>
+        <precio>10</precio>
+        <descripcion>Pizza clásica con tomate, mozzarella y albahaca.</descripcion>
+        <calorias>700</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
             <categoria>con gluten</categoria>
         </caracteristicas>
     </plato>
@@ -94,6 +122,34 @@
         <calorias>800</calorias>
         <caracteristicas>
             <categoria>vegetariano</categoria>
+            <categoria>con gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="pizza">
+        <nombre>Pizza Capricciosa</nombre>
+        <precio>13</precio>
+        <descripcion>Pizza con jamón, champiñones, alcachofas y aceitunas.</descripcion>
+        <calorias>750</calorias>
+        <caracteristicas>
+            <categoria>con gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="pizza">
+        <nombre>Pizza Prosciutto e Funghi</nombre>
+        <precio>12</precio>
+        <descripcion>Pizza con jamón cocido, champiñones y mozzarella.</descripcion>
+        <calorias>720</calorias>
+        <caracteristicas>
+            <categoria>con gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="pizza">
+        <nombre>Pizza Marinara</nombre>
+        <precio>9</precio>
+        <descripcion>Pizza con tomate, ajo, orégano y aceite de oliva.</descripcion>
+        <calorias>600</calorias>
+        <caracteristicas>
+            <categoria>vegano</categoria>
             <categoria>con gluten</categoria>
         </caracteristicas>
     </plato>
