@@ -19,6 +19,24 @@
             <categoria>sin gluten</categoria>
         </caracteristicas>
     </plato>
+    <plato tipo="entrante">
+        <nombre>Carpaccio</nombre>
+        <precio>10</precio>
+        <descripcion>Finas láminas de carne con rúcula y queso parmesano.</descripcion>
+        <calorias>250</calorias>
+        <caracteristicas>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="entrante">
+        <nombre>Focaccia</nombre>
+        <precio>5</precio>
+        <descripcion>Pan italiano con hierbas aromáticas y aceite de oliva.</descripcion>
+        <calorias>300</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+        </caracteristicas>
+    </plato>
     <plato tipo="principal">
         <nombre>Lasagna</nombre>
         <precio>12</precio>
@@ -49,6 +67,36 @@
             <categoria>con gluten</categoria>
         </caracteristicas>
     </plato>
+    <plato tipo="principal">
+        <nombre>Spaghetti Carbonara</nombre>
+        <precio>11</precio>
+        <descripcion>Pasta con salsa cremosa de huevo, queso y panceta.</descripcion>
+        <calorias>650</calorias>
+        <caracteristicas>
+            <categoria>tradicional</categoria>
+            <categoria>con gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="pizza">
+        <nombre>Pizza Diavola</nombre>
+        <precio>12</precio>
+        <descripcion>Pizza con salami picante, mozzarella y tomate.</descripcion>
+        <calorias>750</calorias>
+        <caracteristicas>
+            <categoria>picante</categoria>
+            <categoria>con gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="pizza">
+        <nombre>Pizza Quattro Formaggi</nombre>
+        <precio>13</precio>
+        <descripcion>Pizza con mezcla de cuatro quesos italianos.</descripcion>
+        <calorias>800</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+            <categoria>con gluten</categoria>
+        </caracteristicas>
+    </plato>
     <plato tipo="postre">
         <nombre>Tiramisú</nombre>
         <precio>6</precio>
@@ -64,6 +112,64 @@
         <precio>5</precio>
         <descripcion>Postre cremoso de nata con coulis de frutas rojas.</descripcion>
         <calorias>300</calorias>
+        <caracteristicas>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="postre">
+        <nombre>Gelato</nombre>
+        <precio>4</precio>
+        <descripcion>Helado artesanal italiano de varios sabores.</descripcion>
+        <calorias>200</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="postre">
+        <nombre>Cannoli</nombre>
+        <precio>5</precio>
+        <descripcion>Rollo de masa relleno de ricotta dulce.</descripcion>
+        <calorias>350</calorias>
+        <caracteristicas>
+            <categoria>tradicional</categoria>
+            <categoria>con gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="bebida">
+        <nombre>Agua</nombre>
+        <precio>1</precio>
+        <descripcion>Agua mineral natural.</descripcion>
+        <calorias>0</calorias>
+        <caracteristicas>
+            <categoria>sin gluten</categoria>
+            <categoria>vegano</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="bebida">
+        <nombre>Agua con Gas</nombre>
+        <precio>1.5</precio>
+        <descripcion>Agua mineral con gas.</descripcion>
+        <calorias>0</calorias>
+        <caracteristicas>
+            <categoria>sin gluten</categoria>
+            <categoria>vegano</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="bebida">
+        <nombre>Coca-Cola</nombre>
+        <precio>2</precio>
+        <descripcion>Refresco de cola clásico.</descripcion>
+        <calorias>140</calorias>
+        <caracteristicas>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="bebida">
+        <nombre>Fanta</nombre>
+        <precio>2</precio>
+        <descripcion>Refresco de naranja.</descripcion>
+        <calorias>160</calorias>
         <caracteristicas>
             <categoria>sin gluten</categoria>
         </caracteristicas>
