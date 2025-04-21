@@ -52,11 +52,15 @@ if (file_exists('./xml/menu.xml')) {
             <?php
             foreach ($menu->plato as $plato) {
                 if ($plato['tipo'] == 'entrante') {
+                    $imagen = './img/' . strtolower(str_replace(' ', '_', $plato->nombre)) . '.jpg';
+                    if (!file_exists($imagen)) {
+                        $imagen = './img/imagen_no_disponible.jpg'; // Imagen genérica si no existe la específica
+                    }
                     echo '<div class="col-md-4 mb-4">';
                     echo '<div class="card h-100">';
                     echo '<div class="card-body">';
                     echo '<h5 class="card-title">' . $plato->nombre . '</h5>';
-                    echo '<img src="./img/' . strtolower(str_replace(' ', '_', $plato->nombre)) . '.jpg" class="img-fluid mb-3" alt="' . $plato->nombre . '">';
+                    echo '<img src="' . $imagen . '" class="img-fluid mb-3" alt="' . $plato->nombre . '">';
                     echo '<p class="card-text"><strong>Descripción:</strong> ' . $plato->descripcion . '</p>';
                     echo '<p class="card-text"><strong>Precio:</strong> $' . $plato->precio . '</p>';
                     echo '<p class="card-text"><strong>Calorías:</strong> ' . $plato->calorias . ' kcal</p>';
@@ -81,11 +85,15 @@ if (file_exists('./xml/menu.xml')) {
             <?php
             foreach ($menu->plato as $plato) {
                 if ($plato['tipo'] == 'principal') {
+                    $imagen = './img/' . strtolower(str_replace(' ', '_', $plato->nombre)) . '.jpg';
+                    if (!file_exists($imagen)) {
+                        $imagen = './img/imagen_no_disponible.jpg'; // Imagen genérica si no existe la específica
+                    }
                     echo '<div class="col-md-4 mb-4">';
                     echo '<div class="card h-100">';
                     echo '<div class="card-body">';
                     echo '<h5 class="card-title">' . $plato->nombre . '</h5>';
-                    echo '<img src="./img/' . strtolower(str_replace(' ', '_', $plato->nombre)) . '.jpg" class="img-fluid mb-3" alt="' . $plato->nombre . '">';
+                    echo '<img src="' . $imagen . '" class="img-fluid mb-3" alt="' . $plato->nombre . '">';
                     echo '<p class="card-text"><strong>Descripción:</strong> ' . $plato->descripcion . '</p>';
                     echo '<p class="card-text"><strong>Precio:</strong> $' . $plato->precio . '</p>';
                     echo '<p class="card-text"><strong>Calorías:</strong> ' . $plato->calorias . ' kcal</p>';
@@ -110,11 +118,15 @@ if (file_exists('./xml/menu.xml')) {
             <?php
             foreach ($menu->plato as $plato) {
                 if ($plato['tipo'] == 'pizza') {
+                    $imagen = './img/' . strtolower(str_replace(' ', '_', $plato->nombre)) . '.jpg';
+                    if (!file_exists($imagen)) {
+                        $imagen = './img/imagen_no_disponible.jpg'; // Imagen genérica si no existe la específica
+                    }
                     echo '<div class="col-md-4 mb-4">';
                     echo '<div class="card h-100">';
                     echo '<div class="card-body">';
                     echo '<h5 class="card-title">' . $plato->nombre . '</h5>';
-                    echo '<img src="./img/' . strtolower(str_replace(' ', '_', $plato->nombre)) . '.jpg" class="img-fluid mb-3" alt="' . $plato->nombre . '">';
+                    echo '<img src="' . $imagen . '" class="img-fluid mb-3" alt="' . $plato->nombre . '">';
                     echo '<p class="card-text"><strong>Descripción:</strong> ' . $plato->descripcion . '</p>';
                     echo '<p class="card-text"><strong>Precio:</strong> $' . $plato->precio . '</p>';
                     echo '<p class="card-text"><strong>Calorías:</strong> ' . $plato->calorias . ' kcal</p>';
@@ -139,11 +151,15 @@ if (file_exists('./xml/menu.xml')) {
             <?php
             foreach ($menu->plato as $plato) {
                 if ($plato['tipo'] == 'postre') {
+                    $imagen = './img/' . strtolower(str_replace(' ', '_', $plato->nombre)) . '.jpg';
+                    if (!file_exists($imagen)) {
+                        $imagen = './img/imagen_no_disponible.jpg'; // Imagen genérica si no existe la específica
+                    }
                     echo '<div class="col-md-4 mb-4">';
                     echo '<div class="card h-100">';
                     echo '<div class="card-body">';
                     echo '<h5 class="card-title">' . $plato->nombre . '</h5>';
-                    echo '<img src="./img/' . strtolower(str_replace(' ', '_', $plato->nombre)) . '.jpg" class="img-fluid mb-3" alt="' . $plato->nombre . '">';
+                    echo '<img src="' . $imagen . '" class="img-fluid mb-3" alt="' . $plato->nombre . '">';
                     echo '<p class="card-text"><strong>Descripción:</strong> ' . $plato->descripcion . '</p>';
                     echo '<p class="card-text"><strong>Precio:</strong> $' . $plato->precio . '</p>';
                     echo '<p class="card-text"><strong>Calorías:</strong> ' . $plato->calorias . ' kcal</p>';
@@ -168,11 +184,15 @@ if (file_exists('./xml/menu.xml')) {
             <?php
             foreach ($menu->plato as $plato) {
                 if ($plato['tipo'] == 'bebida') {
+                    $imagen = './img/' . strtolower(str_replace(' ', '_', $plato->nombre)) . '.jpg';
+                    if (!file_exists($imagen)) {
+                        $imagen = './img/imagen_no_disponible.jpg'; // Imagen genérica si no existe la específica
+                    }
                     echo '<div class="col-md-4 mb-4">';
                     echo '<div class="card h-100">';
                     echo '<div class="card-body">';
                     echo '<h5 class="card-title">' . $plato->nombre . '</h5>';
-                    echo '<img src="./img/' . strtolower(str_replace(' ', '_', $plato->nombre)) . '.jpg" class="img-fluid mb-3" alt="' . $plato->nombre . '">';
+                    echo '<img src="' . $imagen . '" class="img-fluid mb-3" alt="' . $plato->nombre . '">';
                     echo '<p class="card-text"><strong>Descripción:</strong> ' . $plato->descripcion . '</p>';
                     echo '<p class="card-text"><strong>Precio:</strong> $' . $plato->precio . '</p>';
                     echo '<p class="card-text"><strong>Calorías:</strong> ' . $plato->calorias . ' kcal</p>';
